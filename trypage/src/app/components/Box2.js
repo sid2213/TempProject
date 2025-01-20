@@ -27,27 +27,27 @@ export default function Box2() {
                         {values.map((items) => {
                             return (
                                 <tr>
-                                    <td class="border border-white p-3 text-left bg-white text-black">{items.title}</td>
+                                    <td class="border border-white p-2 text-left bg-white text-black">{items.title}</td>
                                     {!items.suspense ? (<>
-                                        <td class="border border-white p-3 text-center bg-[#F6B770] text-white">
+                                        <td class="border border-white p-2 text-center bg-[#F6B770] text-white">
                                             <div>
                                                 <div>{items.value1}</div>
                                                 <div >{items.sub1}</div>
                                             </div>
                                         </td>
-                                        <td class="border border-white p-3 text-center bg-[#60ACDE] text-white">
+                                        <td class="border border-white p-2 text-center bg-[#60ACDE] text-white">
                                             <div>
                                                 <div>{items.value2}</div>
                                                 <div >{items.sub2}</div>
                                             </div>
                                         </td></>) : (
                                         <>
-                                            <td class="border border-white p-3 text-center bg-gray-300 text-red-700 font-bold" colspan="2">
+                                            <td class="border border-white p-2 text-center bg-gray-300 text-red-700 font-bold" colspan="2">
                                                 Suspended
                                             </td>
                                         </>
                                     )}
-                                    <td class="border border-white p-3 text-center bg-white text-white">{items.value3}</td>
+                                    <td class="border border-white p-2 text-center bg-white text-white">{items.value3}</td>
                                 </tr>
                             )
                         })}
