@@ -18,14 +18,22 @@ export default function Navbar() {
     return (
         <>
             <>
-                <header class="bg-white shadow-md">
+                <header class="bg-[#3a61a2] shadow-md">
                     <div class="flex items-center justify-between max-w-7xl mx-auto px-4 py-3">
-                        <h1 class="text-xl font-bold text-gray-800">Navbar</h1>
-                        <button id="open-sidebar" class="text-blue-600 text-2xl focus:outline-none">
+                        <div class="flex items-center space-x-6">
+                            <h1 class="text-xl font-bold text-white">Navbar</h1>
+                            <div class="text-white">
+                                <p class="text-sm ">SP31829 - Raju</p>
+                                <p class="text-sm">Coins: 0.00</p>
+                            </div>
+                        </div>
+                        <button id="open-sidebar" class="text-white text-2xl focus:outline-none">
                             &#9776;
                         </button>
                     </div>
                 </header>
+
+
                 <div id="sidebar" class="fixed top-16 right-0 h-[calc(100%-4rem)] w-64 bg-blue-600 text-white transform translate-x-full transition-transform duration-300">
                     <div class="flex justify-between items-center px-4 py-3">
                         <h2 class="text-xl font-bold">Menu</h2>
