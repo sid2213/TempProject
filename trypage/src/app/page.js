@@ -1,7 +1,10 @@
-
+"use client";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <h1 className="text-blue-400">hello</h1>
+    <>
+      <Navbar />
+    </>
   );
 }
