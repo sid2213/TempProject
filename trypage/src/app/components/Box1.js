@@ -4,7 +4,7 @@ export default function Box1() {
   return (
     <>
     <div class="container mx-auto px-1 py-6">
-        <h1 class="text-2xl font-bold text-center  bg-[#3a61a2] text-white">Title Header</h1>
+        <h1 class="text-sm px-2 p-5  bg-[#3a61a2] text-white">Match Winner - Min : 50.0 | Max : 200000.0</h1>
         <table class="min-w-full border-collapse border border-gray-300">
           <thead>
             <tr>
