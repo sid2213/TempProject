@@ -30,7 +30,7 @@ export default function Box2() {
 
     return (
         <>
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div className="container mx-auto sm:px-6 lg:px-8 py-6">
                 <h1 className="text-sm px-2 p-5 bg-[#3a61a2] text-white">Min : 50.0 | Max : 100000.0</h1>
                 <div className="overflow-x-auto">
                     <table className="min-w-full border-collapse border border-gray-300">
