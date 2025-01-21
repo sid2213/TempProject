@@ -19,7 +19,7 @@ export default function Navbar() {
             <header className="bg-[#3a61a2] shadow-md">
                 <div className="flex items-center justify-between max-w-7xl mx-auto px-4 py-3">
                     <div className="flex items-center space-x-6">
-                        <h1 className="text-xl font-bold text-white">Navbar</h1>
+                        <h1 className="text-xl font-bold text-white">Logo</h1>
                         <div className="text-white">
                             <p className="text-sm ">SP31829 - Raju</p>
                             <p className="text-sm">Coins: 0.00</p>
